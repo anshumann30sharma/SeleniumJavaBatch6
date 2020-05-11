@@ -1,0 +1,12 @@
+package com.syntax.util;
+
+public class Constants {
+public static final String CHROME_DRIVER_PATH=System.getProperty("user.dir")+"\\Driver\\chromedriver.exe";
+
+public static final String GECKO_DRIVER_PATH=System.getProperty("user.dir")+"\\Driver\\geckodriver.exe";
+
+public static final String CONFIGURATION_FILEPATH=System.getProperty("user.dir")+"/Config/configuration.properties";
+public static final int IMPLICIT_WAIT_TIME=10;
+public static final int EXPLICIT_WAIT_TIME=30;
+
+}
